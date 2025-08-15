@@ -2,7 +2,7 @@
 
 # str - text type
 # int, float, complex - numeric types
-#
+# list, tuple, range - sequence types
 
 
 x = "hello"  # str
@@ -41,4 +41,5 @@ print(b, "is type of", type(b))
 
 
 zz = bytearray(5)
-print(zz, "is type of", type(zz))
+print(zz, "is type of", type(zz))                            
+

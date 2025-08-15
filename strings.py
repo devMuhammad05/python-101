@@ -6,7 +6,11 @@ print(course_name[0:3])  # start from index 0 to 3
 print(course_name[:3])  # start from index 0 to 3
 print(course_name[5:])  # start from index 5 to the last
 print(course_name[:])  # original copy of string
+print(course_name[2:-1])  # from index 2 character to last index at the end
 
+
+fruit = "Apple"
+print(fruit[1:-1])
 
 first = "Muhammad"
 last = "Yahaya"
