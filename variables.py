@@ -51,12 +51,9 @@ print(lang + y + z)
 print(lang, y, z)
 
 
-num = 5 
+num = 5
 string = "desk"
 
 # print(num + string)   TypeError: unsupported operand type(s) for +: 'int' and 'str'
 
 print(num, string)
-
-
-

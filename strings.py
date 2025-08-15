@@ -1,11 +1,11 @@
 course_name = "  Python Programming"
 print(len(course_name))
-print(course_name[0])  #first character
-print(course_name[-1])  #first character from the end 
-print(course_name[0:3])  #start from index 0 to 3
-print(course_name[:3])  #start from index 0 to 3
-print(course_name[5:])  #start from index 5 to the last
-print(course_name[:])  #original copy of string
+print(course_name[0])  # first character
+print(course_name[-1])  # first character from the end
+print(course_name[0:3])  # start from index 0 to 3
+print(course_name[:3])  # start from index 0 to 3
+print(course_name[5:])  # start from index 5 to the last
+print(course_name[:])  # original copy of string
 
 
 first = "Muhammad"
@@ -26,7 +26,7 @@ print(course_name.upper())
 print(course_name.lower())
 print(course_name.title())
 
-print(course_name.strip()) #remove white space 
+print(course_name.strip())  # remove white space
 
 print(course_name.find("thon"))  # get index of word
 
