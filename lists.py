@@ -46,3 +46,52 @@ print(thislist)  # new list becomes ['apple', 'orange', 'watermelon', 'kiwi']
 thislist = ["apple", "banana", "cherry"]
 thislist[1:2] = ["blackcurrant", "watermelon"]   # replace between index 1 and 2
 print(thislist)
+
+
+
+#  Add List Items
+
+# append adds a new item to the end of the list
+products = ["shoe", "bags", "chair", "table"]
+products.append("laptop")
+print(products)
+
+
+# insert items
+products.insert(1, "mouse")
+print(products)
+
+
+# extend list 
+# To append elements from another list to the current list, use the extend() method. like merging list
+
+more_products = ["keyboard", "cables", "books", "phones"]
+products.extend(more_products)
+print(products)
+
+
+# Remove Specified Item
+
+products.remove("phones")
+print(products)
+
+# Remove Specified Index
+products.pop()  # removes last element
+print(products)
+
+
+products.pop(0)  # removes element in the index 0
+print(products)
+
+
+# The del keyword also removes the specified index:
+
+del products[0]
+print(products)
+
+
+# The del keyword can also delete the list completely.
+del more_products   #deletes the entire more_products list that was extended to products
+print(products)   
+
+
