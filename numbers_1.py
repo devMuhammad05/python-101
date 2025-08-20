@@ -28,3 +28,7 @@ print(math.floor(2.7))  # round value down
 
 
 
+t = 10
+t %=3
+
+print(t)

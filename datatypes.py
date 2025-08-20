@@ -4,7 +4,7 @@
 # int, float, complex - numeric types
 # list, tuple, range - sequence types
 
-
+#primitie types - strings, numbers(int, float, complex) and bool
 x = "hello"  # str
 print(x, "is type of", type(x))
 
