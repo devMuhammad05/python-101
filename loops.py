@@ -4,7 +4,7 @@
 fruits = ["apple", "banana", "cherry"]
 
 for x in fruits:
-    print(x) 
+    print(x)
 
 
 for number in range(3):
@@ -15,7 +15,7 @@ for number in range(1, 5):
     print("Attempting", number, number * ".")
 
 
-# third argument as step 
+# third argument as step
 for number in range(1, 10, 2):
     print("Attempting", number, number * ".")
 
@@ -29,7 +29,7 @@ for number in range(3):
     if successful:
         print("Attempt Successful")
         break
-    else: 
+    else:
         print("Attempted 3 times and failed")
 
 
@@ -60,14 +60,37 @@ for product in products:
 
 
 for number in range(2, 5):
-    print(number) # 2-4
+    print(number)  # 2-4
 
 
 for number in range(2, 30, 3):
-    print(number)  #2, 5, 8 - 29
+    print(number)  # 2, 5, 8 - 29
 
 
 # The pass Statement
 
 for x in [0, 1, 2, 3, 4, 5]:
     pass
+
+
+# Loop Through a Tuple
+
+thistuple = ("apple", "banana", "cherry")
+
+for fruit in thistuple:
+    print(fruit)
+
+
+# Loop Through the Index Numbers
+
+for fruit in range(len(thistuple)):
+    print(thistuple[fruit])
+
+
+# while loop
+
+products = ("laptop", "generator", "AC", "Desktop")
+i = 0
+while i < len(products):
+    print(products[i])
+    i += 1
