@@ -50,7 +50,7 @@ print(type(tuple3))
 
 
 # Once a tuple is created, you cannot change its values.
-# ou can convert the tuple into a list, change the list, and convert the list back into a tuple.
+# you can convert the tuple into a list, change the list, and convert the list back into a tuple.
 
 properties = ("house", 'car', "land")
 y = list(properties)

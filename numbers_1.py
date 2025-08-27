@@ -12,7 +12,7 @@ print(10 ** 3)  # exponential
 x = 10
 # x = x + 20  or
 
-x += 20
+x += 20 
 
 print(x)
 
@@ -32,3 +32,4 @@ t = 10
 t %=3
 
 print(t)
+
