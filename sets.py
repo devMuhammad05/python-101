@@ -40,3 +40,47 @@ for x in newset:
 # check if item is present in set
 print("house" in thisset)
 print("banana" in thisset)
+
+
+# Add Items to set 
+newset.add("orange")
+
+print(newset)
+
+
+# Add Sets
+# To add items from another set into the current set, use the update() method.
+
+
+fruit1 = {"apple", "banana", "orange"}
+fruit2 = {"pineapple", "mango", "papaya"}
+
+fruit1.update(fruit2)
+
+print(fruit1)
+
+
+
+# Add Any Iterable
+# The object in the update() method does not have to be a set, it can be any iterable object (tuples, lists, dictionaries etc.).
+
+setOne = {"king", "queen"}
+listOne = ["prince", "princess"]
+
+setOne.update(listOne)
+print(setOne)
+
+
+
+
+
+# Remove Set Items
+#  using .remove() or .discard()  or .pop()
+
+setOne.remove("prince")
+print(setOne)
+
+
+setOne.remove("king")
+print(setOne)
+
