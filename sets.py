@@ -84,3 +84,54 @@ print(setOne)
 setOne.remove("king")
 print(setOne)
 
+setOne.discard("princess")
+print(setOne)
+
+
+
+
+
+# loop sets 
+countries = {"Germany", "United State", "Nigeria", "Congo"}
+
+for country in countries:
+    print(country)
+
+
+
+# Join sets
+# 1. union() and update() methods joins all items from both sets 
+# 2. intersection() methods joins all items from both set 
+# 3. difference() method keeps the items from the first set that are not in the other set(s) 
+
+
+set1 = {"a", "b", "c"}
+set2 = {1, 2, 3}
+
+set3 = set1.union(set2)
+print(set3)
+
+# You can use the | operator instead of the union() 
+
+set3 = set1 | set2
+print(set3)
+
+# Join Multiple Sets
+
+set4 = {"w", "x", "y", "z"}
+set5 = {4, 5, 6, 7}
+
+set6 = set4.union(set3, set4, set5)
+print(set6)
+
+
+# Join a Set and a Tuple
+
+e = {"pencil", "book", "ruler"}
+z = ("uniform", "shoe")
+
+t = e.union(z)
+print(t)
+
+
+# Note: The  | operator only allows you to join sets with sets, and not with other data types like you can with the  union() method.
