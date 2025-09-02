@@ -135,3 +135,61 @@ print(t)
 
 
 # Note: The  | operator only allows you to join sets with sets, and not with other data types like you can with the  union() method.
+
+
+
+# Update
+# The update() changes the original set, and does not return a new set.
+
+set1 = {"a", "b", "c"}
+set2 = {1, 2, 3}
+
+set1.update(set2)
+
+print(set1)  # returns the full set because, the original set is also updated
+
+
+# Note: Both union() and update() will exclude any duplicate items.
+
+
+
+# Intersection
+
+# Keep ONLY the duplicates
+
+# The intersection() method will return a new set, that only contains the items that are present in both sets.
+
+set1 = {"x", "google", "linkedin",  "whatsapp", "instagram"}
+set2 = {"google", "whatsapp", "apple", "instagram"}
+
+set3 = set1.intersection(set2)
+print(set3)
+
+
+# You can use the & operator instead of the intersection()
+
+
+
+# intersection_update
+
+# The intersection_update() method will also keep ONLY the duplicates, but it will change the original set instead of returning a new set.
+
+
+set1 = {"apple", "banana", "cherry"}
+set2 = {"banana", "orange", "apple"}
+
+set1.intersection_update(set2)
+print(set1)
+
+
+
+
+
+# Difference
+# The difference() method will return a new set that will contain only the items from the first set that are not present in the other set.
+
+set1 = {"apple", "banana", "cherry"}
+set2 = {"banana", "orange", "apple"}
+
+set3 = set1.difference(set2)    # or set1 - set 2
+print(set3)
