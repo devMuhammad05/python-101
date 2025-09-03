@@ -95,6 +95,11 @@ while i < len(products):
     print(products[i])
     i += 1
 
+num = 100
+
+while num > 0:
+    print(num)
+    num //= 2
 
 
 # Loop Through a Dictionary
