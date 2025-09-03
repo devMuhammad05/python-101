@@ -124,3 +124,15 @@ family = {
 print(f"family child2 name {family['child2']['name']}")
 
 print(f"family child4 year {family['child4']['name']}")
+
+
+# Loop Through Nested Dictionaries
+# You can loop through a dictionary by using the items() method like this:
+
+
+for child, obj in family.items():
+    print(child)
+
+    for child_detail in obj:
+        print(child_detail + ':', obj[child_detail])
+    
