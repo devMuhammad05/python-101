@@ -94,3 +94,31 @@ i = 0
 while i < len(products):
     print(products[i])
     i += 1
+
+
+
+# Loop Through a Dictionary
+
+thisdict = {
+    "fruit" : "banana",
+    "laptop" : "dell",
+    "social_media" : "linkedin",
+    "food" : "rice",
+}
+
+# print all key names: fruit, laptop etc
+for x in thisdict:
+    print(x)
+
+# print all values: banana, dell etc
+for x in thisdict:
+    print(thisdict[x])
+
+for x in thisdict.values():
+    print(x)
+
+
+# loop through both keys and values 
+
+for x, y  in thisdict.items():
+    print(x, y)
