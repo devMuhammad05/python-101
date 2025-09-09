@@ -77,8 +77,6 @@ get_shortest_fruit_name(fruits)
 
 
 
-
-
 def get_most_frequent_words(words):
     words_and_count = {}
 
