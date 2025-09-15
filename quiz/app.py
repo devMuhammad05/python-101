@@ -44,6 +44,6 @@ def quiz():
         else:    
             print(f"Wrong. The correct answer is: {correct_answer} \n")
 
-        print(f"Thank you for taking the Quiz your total score is: {score}/{total_question}")
+    print(f"Thank you for taking the Quiz your total score is: {score}/{total_question}")
 
 quiz()
