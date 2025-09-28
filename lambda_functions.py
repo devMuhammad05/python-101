@@ -66,9 +66,12 @@ print(points_2D_sorted)
 
 
 # map
-
 some_list = [1, 2, 3, 4, 5, 6, 7]
 
 multiply_by_2 = map(lambda x: x * 2 ,some_list)
 
 print(list(multiply_by_2))
+
+
+even_list = filter(lambda x: x % 2 == 0, some_list) 
+print(list(even_list))
