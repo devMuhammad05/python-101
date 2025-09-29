@@ -34,3 +34,23 @@ dog2 = Dog("Max", "Bulldog")
 dog1.bark()
 dog2.bark()
 
+
+
+
+
+class Utility: 
+    app_version = "1.0"
+
+    @classmethod 
+    def get_version(cls):
+        print(f"App version: {cls.app_version}")
+
+
+    @staticmethod
+    def greet():
+        print("Hello! Welcome to the app.")
+
+
+Utility.get_version()
+Utility.greet()
+
