@@ -58,3 +58,30 @@ class Child(Parent):
 
 child = Child()
 child.display()
+
+
+class Animal:
+    def __init__(self):
+        print("Animal Created")
+
+class Dog(Animal):
+    def __init__(self):
+        super().__init__()  #inherit the methods and properties from its parent.
+        print("Dog Created")
+
+dog = Dog()
+
+
+
+
+class Vehicle:
+    def fuel_type(self):
+        print("Fuel type: Petrol/Diesel")
+
+class ElectricCar(Vehicle):
+    def fuel_type(self):
+        print("Fuel type: Electric")
+    
+
+car = ElectricCar()
+car.fuel_type()
