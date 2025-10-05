@@ -25,7 +25,8 @@ class BankAccount:
     # Show Account Details
     def show_details(self):
         print("\n --- Acount Details ---")
-        print(f"Account Holder: {self.account_holder}")
+        print(f"Account Holder: {self.account_holder}") 
+          
         print(f"Account Balance: ${self.balance}")
 
 
@@ -52,7 +53,7 @@ def access_account():
     if name in accounts:
         account = accounts[name]
         while True:
-            print("\n--- Account Menu ----")
+            print("\n--- Account Menu ----")         []
             print("1. Deposit")
             print("2. Withdraw")
             print("3. Show Details")
